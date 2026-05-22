@@ -22,21 +22,15 @@
 
 ### 🚀 Featured Projects
 
-| 🌌 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** |
-|:---|:---|
-| A modern, feature-rich WebUI for qBittorrent powered by Vue 3 and Vite. Features a dark-mode neon aesthetic, PWA support, a live Speed Ticker, and an integrated **Telegram Companion Bot**. | A browser-based retro arcade featuring 11 pixel-perfect game replicas. Built with Tauri v2, Phaser 4, and WebGL, featuring CRT shaders and gamepad support. |
+#### 🌐 Open Source
+| 🌌 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | 🚀 **[AuraOS](https://github.com/BiosSystem/aura-os)** |
+|:---|:---|:---|
+| A modern, feature-rich WebUI for qBittorrent powered by Vue 3 and Vite. Features a dark-mode neon aesthetic, PWA support, a live Speed Ticker, and an integrated **Telegram Companion Bot**. | A browser-based retro arcade featuring 11 pixel-perfect game replicas. Built with Tauri v2, Phaser 4, and WebGL, featuring CRT shaders and gamepad support. | An open-source, secure operating system built on CasaOS. Features advanced container orchestration, hardened zero-trust network policies, and a sleek web dashboard. |
 
-| 🚀 **[AuraOS](https://github.com/BiosSystem/aura-os)** | 🌐 **Open Source Ecosystem** |
+#### 🔒 Private Repositories
+| 🛡️ **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | ☁️ **[Universal Platform Engineering](https://github.com/BiosSystem/universal-platform-engineering)** |
 |:---|:---|
-| An open-source, secure operating system built on CasaOS. Features advanced container orchestration, hardened zero-trust network policies, and a sleek web dashboard. | *This system is open-source, modular, and built on community standards for home cloud computing platforms.* |
-
-| 🛡️ **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | 🔒 **Private Repository** |
-|:---|:---|
-| A production-ready Telegram bot e-commerce platform. Features Telegram Stars payments integration, real-time order tracking, and an advanced web-based admin dashboard. | *This repository is set to private. It contains proprietary automated transaction flows and client bot logic.* |
-
-| ☁️ **[Universal Platform Engineering](https://github.com/BiosSystem/universal-platform-engineering)** | 🔒 **Private Repository** |
-|:---|:---|
-| An enterprise-grade DevOps internal developer platform. Designed for secure workload isolation, GitOps continuous delivery (ArgoCD/Crossplane), and advanced observability. | *This repository is set to private. It contains proprietary cloud infrastructure configurations and core system topologies.* |
+| A production-ready Telegram bot e-commerce platform. Features Telegram Stars payments integration, real-time order tracking, and an advanced web-based admin dashboard. | An enterprise-grade DevOps internal developer platform. Designed for secure workload isolation, GitOps continuous delivery (ArgoCD/Crossplane), and advanced observability. |
 
 ---
 
