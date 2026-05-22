@@ -38,10 +38,10 @@
 
 <p align="center">
   <a href="https://github.com/BiosSystem">
-    <img src="https://github-readme-stats.vercel.app/api?username=BiosSystem&show_icons=true&title_color=00FF72&icon_color=00FF72&text_color=a1a1aa&bg_color=0D1117&border_color=30363d&hide_border=true" alt="BiosSystem GitHub Stats" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=BiosSystem&show_icons=true&title_color=00FF72&icon_color=00FF72&text_color=a1a1aa&bg_color=0D1117&border_color=30363d&hide_border=true" alt="BiosSystem GitHub Stats" />
   </a>
   <a href="https://github.com/BiosSystem">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=BiosSystem&layout=compact&title_color=00FF72&text_color=a1a1aa&bg_color=0D1117&border_color=30363d&hide_border=true" alt="BiosSystem Top Languages" />
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=BiosSystem&layout=compact&title_color=00FF72&text_color=a1a1aa&bg_color=0D1117&border_color=30363d&hide_border=true" alt="BiosSystem Top Languages" />
   </a>
 </p>
 
