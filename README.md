@@ -5,8 +5,8 @@
 <h1 align="center">Hi there, I'm BiosSystem 👋</h1>
 
 <p align="center">
-  <strong>System Architect | Security Researcher | Full-Stack Developer</strong><br>
-  I build high-performance, security-hardened open-source software across Web, Desktop, and Cloud environments.
+  <strong>System Architect | Security Hardening Expert | DevOps & Infrastructure Engineer</strong><br>
+  I build high-performance, security-hardened open-source software and robust infrastructure delivery pipelines.
 </p>
 
 <p align="center">
@@ -15,22 +15,35 @@
   <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+  <br>
   <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/Terraform-5835CC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
 </p>
 
 <br>
 
-### 🚀 Featured Projects
+### 🚀 Active Portfolio
 
-#### 🌐 Open Source
-| 🌌 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | 🚀 **[AuraOS](https://github.com/BiosSystem/aura-os)** |
-|:---|:---|:---|
-| A modern, feature-rich WebUI for qBittorrent powered by Vue 3 and Vite. Features a dark-mode neon aesthetic, PWA support, a live Speed Ticker, and an integrated **Telegram Companion Bot**. | A browser-based retro arcade featuring 11 pixel-perfect game replicas. Built with Tauri v2, Phaser 4, and WebGL, featuring CRT shaders and gamepad support. | An open-source, secure operating system built on CasaOS. Features advanced container orchestration, hardened zero-trust network policies, and a sleek web dashboard. |
+#### 🌐 Open Source (Public)
+| Project | Stack | Description |
+| :--- | :--- | :--- |
+| 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | A modern, feature-rich qBittorrent Web UI featuring glassmorphism neon themes, PWA support, a live Speed Ticker, and an integrated Telegram companion bot. |
+| 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript | A pixel-perfect retro arcade platform with 11 custom game engines, CRT shader rendering, game difficulty control, and input abstraction. |
 
-#### 🔒 Private Repositories
-| 🛡️ **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | ☁️ **[Universal Platform Engineering](https://github.com/BiosSystem/universal-platform-engineering)** |
-|:---|:---|
-| A production-ready Telegram bot e-commerce platform. Features Telegram Stars payments integration, real-time order tracking, and an advanced web-based admin dashboard. | An enterprise-grade DevOps internal developer platform. Designed for secure workload isolation, GitOps continuous delivery (ArgoCD/Crossplane), and advanced observability. |
+#### 🛡️ Secure Applications & Platforms (Private)
+| Project | Stack | Description |
+| :--- | :--- | :--- |
+| 🚀 **[AuraOS](https://github.com/BiosSystem/aura-os)** | Go, Echo, SQLite, Docker | An enterprise-grade cloud storage and NAS OS featuring secure Docker virtualization, ZFS pools, and mDNS mesh routing. |
+| 🤖 **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | Python, Aiogram, SQLite | A secure, self-hosted Telegram e-commerce store with FSM carts, sliding-window rate limiters, input sanitization, and structured admin order tracking. |
+
+#### ⚙️ Infrastructure & DevOps Engineering (Private Showcase)
+| Project | Stack | Description |
+| :--- | :--- | :--- |
+| ☁️ **[Universal Platform Engineering](https://github.com/BiosSystem/universal-platform-engineering)** | Terraform, Kubernetes, ArgoCD | A production-grade cloud orchestration layer enforcing Zero-Trust security and ArgoCD GitOps continuous delivery for BiosSystem infrastructure. |
+| ☸️ **[K8s App Delivery](https://github.com/BiosSystem/k8s-app-delivery)** | Python, Docker, Kubernetes, CI/CD | A Kubernetes application delivery sandbox featuring a multi-stage Docker build, liveness/readiness probes, and static security analysis (Hadolint/Trivy) in CI. |
+| 🛠️ **[Terraform AWS Bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap)** | Terraform, AWS, Checkov, TFLint | A modular, secure-by-default Terraform repository deploying an AWS VPC, EC2, and S3 bucket with Checkov and TFLint verification. |
 
 ---
 
