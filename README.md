@@ -14,6 +14,7 @@
 </p>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue.js" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
@@ -35,6 +36,7 @@
 | :--- | :--- | :--- |
 | 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | A modern, feature-rich qBittorrent Web UI featuring glassmorphism neon themes, PWA support, a live Speed Ticker, and an integrated Telegram companion bot. |
 | 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript | A pixel-perfect retro arcade platform with 11 custom game engines, CRT shader rendering, game difficulty control, and input abstraction. |
+| 🍁 **[BiosMS](https://github.com/BiosSystem/BiosMS)** | Java 8, Maven, Apache MINA, MySQL, Docker | A vanilla, security-hardened MapleStory v62 game server emulator in Java featuring a clean architecture, Docker orchestration, and a fully localized English UI. |
 
 #### 🛡️ Secure Applications & Platforms (Private)
 | Project | Stack | Description |
