@@ -10,7 +10,7 @@ This document serves as the central security policy and hardening matrix for all
 
 If you discover a security vulnerability in any BiosSystem project, please report it immediately. To protect our users and infrastructure, **do not open public issues on GitHub**.
 
-* **Email**: Send detailed vulnerability reports to `security@bios_system.io`
+* **Email**: Send detailed vulnerability reports to `security@bios-system.net`
 * **Response SLA**:
   * **Acknowledgement**: Within 24 hours.
   * **Remediation Plan**: Within 3 business days.
