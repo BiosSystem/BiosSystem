@@ -9,8 +9,8 @@
 </p>
 
 <p align="center">
-  <strong>System Architect | Security Hardening Expert | DevOps & Infrastructure Engineer</strong><br>
-  I build high-performance, security-hardened open-source software and robust infrastructure delivery pipelines.
+  <strong>System Architect | Security Hardening | DevOps & Infrastructure Engineering</strong><br>
+  Building security-hardened open-source software and infrastructure delivery pipelines.
 </p>
 
 <p align="center">
@@ -34,22 +34,22 @@
 #### 🌐 Open Source (Public)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | A modern, feature-rich qBittorrent Web UI featuring glassmorphism neon themes, PWA support, a live Speed Ticker, and an integrated Telegram companion bot. |
-| 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript | A pixel-perfect retro arcade platform with 11 custom game engines, CRT shader rendering, game difficulty control, and input abstraction. |
-| 🍁 **[BiosMS](https://github.com/BiosSystem/BiosMS)** | Java 8, Maven, Apache MINA, MySQL, Docker | A vanilla, security-hardened MapleStory v62 game server emulator in Java featuring a clean architecture, Docker orchestration, and a fully localized English UI. |
+| 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | qBittorrent Web UI with glassmorphism themes, PWA support, a Speed Ticker, and an integrated Telegram companion bot. |
+| 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript | Retro arcade platform with 11 custom game engines, CRT shader rendering, difficulty control, and cross-platform input abstraction. |
+| 🍁 **[OriginalMS](https://github.com/BiosSystem/OriginalMS)** | Java 8, Maven, Apache MINA, MySQL, Docker | Vanilla MapleStory v62 (GMS 2008) server emulator - all PQs, bosses, Cygnus Knights, and Aran. Dockerized and fully translated to English. |
 
 #### 🛡️ Secure Applications & Platforms (Private)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| 🚀 **[AuraOS](https://github.com/BiosSystem/aura-os)** | Go, Echo, SQLite, Docker | An enterprise-grade cloud storage and NAS OS featuring secure Docker virtualization, ZFS pools, and mDNS mesh routing. |
-| 🤖 **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | Python, Aiogram, SQLite | A secure, self-hosted Telegram e-commerce store with FSM carts, sliding-window rate limiters, input sanitization, and structured admin order tracking. |
+| 🚀 **[AuraOS](https://github.com/BiosSystem/aura-os)** | Go, Echo, SQLite, Docker | Cloud storage and NAS OS with Docker virtualization, ZFS pools, and mDNS mesh routing. |
+| 🤖 **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | Python, Aiogram, SQLite | Self-hosted Telegram e-commerce store with FSM carts, sliding-window rate limiters, input sanitization, and admin order tracking. |
 
 #### ⚙️ Infrastructure & DevOps Engineering (Private Showcase)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| ☁️ **[Universal Platform Engineering](https://github.com/BiosSystem/universal-platform-engineering)** | Terraform, Kubernetes, ArgoCD | A production-grade cloud orchestration layer enforcing Zero-Trust security and ArgoCD GitOps continuous delivery for BiosSystem infrastructure. |
-| ☸️ **[K8s App Delivery](https://github.com/BiosSystem/k8s-app-delivery)** | Python, Docker, Kubernetes, CI/CD | A Kubernetes application delivery sandbox featuring a multi-stage Docker build, liveness/readiness probes, and static security analysis (Hadolint/Trivy) in CI. |
-| 🛠️ **[Terraform AWS Bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap)** | Terraform, AWS, Checkov, TFLint | A modular, secure-by-default Terraform repository deploying an AWS VPC, EC2, and S3 bucket with Checkov and TFLint verification. |
+| ☁️ **[Universal Platform Engineering](https://github.com/BiosSystem/universal-platform-engineering)** | Terraform, Kubernetes, ArgoCD | Cloud orchestration layer enforcing Zero-Trust security and ArgoCD GitOps continuous delivery for BiosSystem infrastructure. |
+| ☸️ **[K8s App Delivery](https://github.com/BiosSystem/k8s-app-delivery)** | Python, Docker, Kubernetes, CI/CD | Kubernetes delivery sandbox with multi-stage Docker builds, liveness/readiness probes, and Hadolint/Trivy security scanning in CI. |
+| 🛠️ **[Terraform AWS Bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap)** | Terraform, AWS, Checkov, TFLint | Modular Terraform project deploying an isolated AWS VPC, EC2, and S3 with Checkov and TFLint verification. |
 
 ---
 
