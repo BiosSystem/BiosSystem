@@ -36,7 +36,7 @@
 | :--- | :--- | :--- |
 | 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | qBittorrent Web UI with glassmorphism themes, PWA support, a Speed Ticker, and an integrated Telegram companion bot. |
 | 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript | Retro arcade platform with 11 custom game engines, CRT shader rendering, difficulty control, and cross-platform input abstraction. |
-| 🍁 **[OriginalMS](https://github.com/BiosSystem/OriginalMS)** | Java 8, Maven, Apache MINA, MySQL, Docker | Vanilla MapleStory v62 (GMS 2008) server emulator - all PQs, bosses, Cygnus Knights, and Aran. Dockerized and fully translated to English. |
+| 🍁 **[OriginalMS](https://github.com/BiosSystem/OriginalMS)** | Java 8, Maven, Apache MINA, MySQL, Docker | Vanilla MapleStory v62 (GMS 2008) server emulator with all PQs, bosses, Cygnus Knights, and Aran. Dockerized and fully translated to English. |
 
 #### 🛡️ Secure Applications & Platforms (Private)
 | Project | Stack | Description |
@@ -50,8 +50,6 @@
 | ☁️ **[Universal Platform Engineering](https://github.com/BiosSystem/universal-platform-engineering)** | Terraform, Kubernetes, ArgoCD | Cloud orchestration layer enforcing Zero-Trust security and ArgoCD GitOps continuous delivery for BiosSystem infrastructure. |
 | ☸️ **[K8s App Delivery](https://github.com/BiosSystem/k8s-app-delivery)** | Python, Docker, Kubernetes, CI/CD | Kubernetes delivery sandbox with multi-stage Docker builds, liveness/readiness probes, and Hadolint/Trivy security scanning in CI. |
 | 🛠️ **[Terraform AWS Bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap)** | Terraform, AWS, Checkov, TFLint | Modular Terraform project deploying an isolated AWS VPC, EC2, and S3 with Checkov and TFLint verification. |
-
----
 
 ### 📊 GitHub Stats
 
