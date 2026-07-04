@@ -37,19 +37,18 @@
 | Project | Stack | Description |
 | :--- | :--- | :--- |
 | 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | qBittorrent Web UI with glassmorphism themes, PWA support, a live Speed Ticker HUD, and an integrated Telegram companion bot. |
-| 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript, Rust | 11 classic arcade replicas with GLSL CRT shaders, hardware gamepad support, and persistent high scores across desktop and mobile. |
+| 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript, Rust | 11 classic arcade game replicas in a native desktop app. Features GLSL CRT shaders, hardware gamepad support, and persistent high scores across all platforms. |
 | 🍁 **[OriginalMS](https://github.com/BiosSystem/OriginalMS)** | Java 8, Maven, Apache MINA, MySQL, Docker | Vanilla MapleStory v62 (GMS 2008) server emulator with all PQs, bosses, Cygnus Knights, and Aran. Dockerized and fully translated to English. |
 
 #### 🛡️ Secure Applications & Platforms (Private)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| 🌐 **[BiosSystem Portal V2](https://github.com/BiosSystem/bios-portal-v2)** | React 18, Vite, TypeScript, FastAPI, Docker | Cloud platform with Google SSO, Sniplink URL shortener, StreamHub media demo, and AI token analytics. Deployed at bios-system.net. |
-| 📊 **[bios-dashboard](https://github.com/BiosSystem/bios-dashboard)** | Next.js, TypeScript, Docker | Self-hosted application dashboard with Docker service integrations, live service health widgets, and a custom dark theme. |
-| 🎰 **[BetForge](https://github.com/BiosSystem/betforge)** | React 18, TypeScript, Vite | Premium sports betting platform with live odds, multi-sport coverage, and a modern trading-desk UI. |
-| 📱 **[StatZilla](https://github.com/BiosSystem/statzilla)** | React, TypeScript, Docker | Mobile game stats tracker for 12 titles including Brawl Stars, Clash Royale, and PUBG Mobile. |
-| 🚀 **[AuraOS](https://github.com/BiosSystem/aura-os)** | Go, Echo, SQLite, Docker | Cloud storage and NAS OS with Docker virtualization, ZFS pools, and mDNS mesh routing. |
-| 🤖 **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | Python, Aiogram, SQLite | Telegram e-commerce platform with Telegram Stars payments, FSM carts, sliding-window rate limiters, and a real-time admin dashboard. |
-| 🪟 **[WinSwift](https://github.com/BiosSystem/WinSwift)** | PowerShell | Lightweight Windows debloat and customization toolkit with a CLI interface, audit mode support, and exportable settings profiles. |
+| 📊 **[bios-dashboard](https://github.com/BiosSystem/bios-dashboard)** | Next.js, TypeScript, Docker | Glassmorphic Bento Grid startpage and NAS service dashboard. Displays real-time Docker container stats, system resource usage, weather, and integrated service health — all served from the NAS with zero external telemetry. |
+| 🎰 **[BetForge](https://github.com/BiosSystem/betforge)** | React 18, TypeScript, Vite | Full-stack sports betting platform with live odds display, bet slip management, multi-sport coverage, and a trading-desk style UI. |
+| 📱 **[StatZilla](https://github.com/BiosSystem/statzilla)** | React, TypeScript, Docker | Unified mobile game stats dashboard that pulls live API data for 12 titles — Brawl Stars, Clash Royale, PUBG Mobile, and more — in one place. |
+| 🚀 **[AuraOS](https://github.com/BiosSystem/aura-os)** | Go, Echo, SQLite, Docker | Enterprise NAS OS and cloud storage platform with Docker virtualization, ZFS pool management, and mDNS mesh networking for local service discovery. |
+| 🤖 **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | Python, Aiogram, SQLite | Production Telegram storefront with native Telegram Stars payments, FSM-driven shopping carts, sliding-window rate limiting, and a real-time admin order dashboard. |
+| 🪟 **[WinSwift](https://github.com/BiosSystem/WinSwift)** | PowerShell | Windows debloat and customization toolkit with interactive menus, a full CLI mode, enterprise audit mode, and exportable settings profiles for consistent multi-machine deployment. |
 
 #### ⚙️ Infrastructure & DevOps Engineering (Private Showcase)
 | Project | Stack | Description |
