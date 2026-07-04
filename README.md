@@ -16,6 +16,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java" />
   <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
   <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
@@ -25,6 +26,7 @@
   <img src="https://img.shields.io/badge/Kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/Terraform-5835CC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
   <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
 </p>
 
 <br>
@@ -34,15 +36,20 @@
 #### 🌐 Open Source (Public)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | qBittorrent Web UI with glassmorphism themes, PWA support, a Speed Ticker, and an integrated Telegram companion bot. |
-| 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript | Retro arcade platform with 11 custom game engines, CRT shader rendering, difficulty control, and cross-platform input abstraction. |
+| 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | qBittorrent Web UI with glassmorphism themes, PWA support, a live Speed Ticker HUD, and an integrated Telegram companion bot. |
+| 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript, Rust | 11 classic arcade replicas with GLSL CRT shaders, hardware gamepad support, and persistent high scores across desktop and mobile. |
 | 🍁 **[OriginalMS](https://github.com/BiosSystem/OriginalMS)** | Java 8, Maven, Apache MINA, MySQL, Docker | Vanilla MapleStory v62 (GMS 2008) server emulator with all PQs, bosses, Cygnus Knights, and Aran. Dockerized and fully translated to English. |
 
 #### 🛡️ Secure Applications & Platforms (Private)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
+| 🌐 **[BiosSystem Portal V2](https://github.com/BiosSystem/bios-portal-v2)** | React 18, Vite, TypeScript, FastAPI, Docker | Cloud platform with Google SSO, Sniplink URL shortener, StreamHub media demo, and AI token analytics. Deployed at bios-system.net. |
+| 📊 **[bios-dashboard](https://github.com/BiosSystem/bios-dashboard)** | Next.js, TypeScript, Docker | Self-hosted application dashboard with Docker service integrations, live service health widgets, and a custom dark theme. |
+| 🎰 **[BetForge](https://github.com/BiosSystem/betforge)** | React 18, TypeScript, Vite | Premium sports betting platform with live odds, multi-sport coverage, and a modern trading-desk UI. |
+| 📱 **[StatZilla](https://github.com/BiosSystem/statzilla)** | React, TypeScript, Docker | Mobile game stats tracker for 12 titles including Brawl Stars, Clash Royale, and PUBG Mobile. |
 | 🚀 **[AuraOS](https://github.com/BiosSystem/aura-os)** | Go, Echo, SQLite, Docker | Cloud storage and NAS OS with Docker virtualization, ZFS pools, and mDNS mesh routing. |
-| 🤖 **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | Python, Aiogram, SQLite | Self-hosted Telegram e-commerce store with FSM carts, sliding-window rate limiters, input sanitization, and admin order tracking. |
+| 🤖 **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | Python, Aiogram, SQLite | Telegram e-commerce platform with Telegram Stars payments, FSM carts, sliding-window rate limiters, and a real-time admin dashboard. |
+| 🪟 **[WinSwift](https://github.com/BiosSystem/WinSwift)** | PowerShell | Lightweight Windows debloat and customization toolkit with a CLI interface, audit mode support, and exportable settings profiles. |
 
 #### ⚙️ Infrastructure & DevOps Engineering (Private Showcase)
 | Project | Stack | Description |
