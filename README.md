@@ -36,26 +36,26 @@
 #### 🌐 Open Source (Public)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | qBittorrent Web UI with glassmorphism themes, PWA support, a live Speed Ticker HUD, and an integrated Telegram companion bot. |
-| 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript, Rust | 11 classic arcade game replicas in a native desktop app. Features GLSL CRT shaders, hardware gamepad support, and persistent high scores across all platforms. |
-| 🍁 **[OriginalMS](https://github.com/BiosSystem/OriginalMS)** | Java 8, Maven, Apache MINA, MySQL, Docker | Vanilla MapleStory v62 (GMS 2008) server emulator with all PQs, bosses, Cygnus Knights, and Aran. Dockerized and fully translated to English. |
+| 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | A fast, good-looking web interface for qBittorrent. Manage all your downloads from the browser, see live speed graphs, and get a Telegram message the moment something finishes. Installs as an app on any device. |
+| 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript, Rust | A desktop app with 11 classic arcade games — Pac-Man, Space Invaders, Snake, and more. Plug in a gamepad, toggle that old-school CRT look, and your high scores are saved across every game. |
+| 🍁 **[OriginalMS](https://github.com/BiosSystem/OriginalMS)** | Java 8, Maven, Apache MINA, MySQL, Docker | A fully working recreation of the original MapleStory from 2008 — all the dungeons, bosses, Cygnus Knights, and Aran class included. Runs locally with one Docker command, fully translated to English. |
 
 #### 🛡️ Secure Applications & Platforms (Private)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| 📊 **[bios-dashboard](https://github.com/BiosSystem/bios-dashboard)** | Next.js, TypeScript, Docker | Glassmorphic Bento Grid startpage and NAS service dashboard. Displays real-time Docker container stats, system resource usage, weather, and integrated service health — all served from the NAS with zero external telemetry. |
-| 🎰 **[BetForge](https://github.com/BiosSystem/betforge)** | React 18, TypeScript, Vite | Full-stack sports betting platform with live odds display, bet slip management, multi-sport coverage, and a trading-desk style UI. |
-| 📱 **[StatZilla](https://github.com/BiosSystem/statzilla)** | React, TypeScript, Docker | Unified mobile game stats dashboard that pulls live API data for 12 titles — Brawl Stars, Clash Royale, PUBG Mobile, and more — in one place. |
-| 🚀 **[AuraOS](https://github.com/BiosSystem/aura-os)** | Go, Echo, SQLite, Docker | Enterprise NAS OS and cloud storage platform with Docker virtualization, ZFS pool management, and mDNS mesh networking for local service discovery. |
-| 🤖 **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | Python, Aiogram, SQLite | Production Telegram storefront with native Telegram Stars payments, FSM-driven shopping carts, sliding-window rate limiting, and a real-time admin order dashboard. |
-| 🪟 **[WinSwift](https://github.com/BiosSystem/WinSwift)** | PowerShell | Windows debloat and customization toolkit with interactive menus, a full CLI mode, enterprise audit mode, and exportable settings profiles for consistent multi-machine deployment. |
+| 📊 **[bios-dashboard](https://github.com/BiosSystem/bios-dashboard)** | Next.js, TypeScript, Docker | A personal home dashboard for your self-hosted setup. See all your running services, Docker containers, storage, CPU/RAM usage, and the weather — all in one place, served from your own machine with no external tracking. |
+| 🎰 **[BetForge](https://github.com/BiosSystem/betforge)** | React 18, TypeScript, Vite | A sports betting platform where you can browse live odds across multiple sports, build a bet slip, and manage your bets — built with the kind of layout you'd see on a real trading desk. |
+| 📱 **[StatZilla](https://github.com/BiosSystem/statzilla)** | React, TypeScript, Docker | Track your progress across 12 mobile games in one dashboard. Connect Brawl Stars, Clash Royale, PUBG Mobile, and more — StatZilla pulls your live stats so you don't have to switch between apps. |
+| 🚀 **[AuraOS](https://github.com/BiosSystem/aura-os)** | Go, Echo, SQLite, Docker | A full operating system for your home server. Manage your storage drives, spin up Docker apps, and reach everything from your local network — built to replace closed-source NAS software. |
+| 🤖 **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | Python, Aiogram, SQLite | A Telegram bot that runs a complete digital storefront. Customers browse products, pay with Telegram Stars, and receive their orders — all without leaving the chat. Includes a live order dashboard for the admin. |
+| 🪟 **[WinSwift](https://github.com/BiosSystem/WinSwift)** | PowerShell | A Windows cleanup and setup tool. Remove bloatware, apply tweaks, and configure a new machine in minutes — works interactively or from the command line, and you can save your settings to reuse across multiple machines. |
 
 #### ⚙️ Infrastructure & DevOps Engineering (Private Showcase)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| ☁️ **[Universal Platform Engineering](https://github.com/BiosSystem/universal-platform-engineering)** | Terraform, Kubernetes, ArgoCD | Cloud orchestration layer enforcing Zero-Trust security and ArgoCD GitOps continuous delivery for BiosSystem infrastructure. |
-| ☸️ **[K8s App Delivery](https://github.com/BiosSystem/k8s-app-delivery)** | Python, Docker, Kubernetes, CI/CD | Kubernetes delivery sandbox with multi-stage Docker builds, liveness/readiness probes, and Hadolint/Trivy security scanning in CI. |
-| 🛠️ **[Terraform AWS Bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap)** | Terraform, AWS, Checkov, TFLint | Modular Terraform project deploying an isolated AWS VPC, EC2, and S3 with Checkov and TFLint verification. |
+| ☁️ **[Universal Platform Engineering](https://github.com/BiosSystem/universal-platform-engineering)** | Terraform, Kubernetes, ArgoCD | The cloud infrastructure backbone for BiosSystem — automated deployments, strict access controls, and a single source of truth for every service running in production. |
+| ☸️ **[K8s App Delivery](https://github.com/BiosSystem/k8s-app-delivery)** | Python, Docker, Kubernetes, CI/CD | A Kubernetes sandbox demonstrating how to properly ship containerized apps — health checks, automated security scanning, and a full CI pipeline from code to running container. |
+| 🛠️ **[Terraform AWS Bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap)** | Terraform, AWS, Checkov, TFLint | Reusable Terraform modules that spin up a complete, secured AWS environment (network, servers, and storage) with automated safety checks built into every deployment. |
 
 ### 📊 GitHub Stats
 
