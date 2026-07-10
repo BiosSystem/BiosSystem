@@ -39,11 +39,11 @@
 | 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | A fast, good-looking web interface for qBittorrent. Manage all your downloads from the browser, see live speed graphs, and get a Telegram message the moment something finishes. Installs as an app on any device. |
 | 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript, Rust | A desktop app with 11 classic arcade games - Pac-Man, Space Invaders, Snake, and more. Plug in a gamepad, toggle that old-school CRT look, and your high scores are saved across every game. |
 | 🍁 **[OriginalMS](https://github.com/BiosSystem/OriginalMS)** | Java 8, Maven, Apache MINA, MySQL, Docker | A fully working recreation of the original MapleStory from 2008 - all the dungeons, bosses, Cygnus Knights, and Aran class included. Runs locally with one Docker command, fully translated to English. |
-| 🚓 **[OutbreakRP](https://github.com/BiosSystem/OutbreakRP)** | Lua, JavaScript, MySQL, FiveM | A high-performance FiveM GTA V roleplay server featuring custom resources, economy systems, and robust anti-cheat measures. |
 
 #### 🛡️ Secure Applications & Platforms (Private)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
+| 🚓 **[OutbreakRP](https://github.com/BiosSystem/OutbreakRP)** | Lua, JavaScript, MySQL, FiveM | A high-performance FiveM GTA V roleplay server featuring custom resources, economy systems, and robust anti-cheat measures. |
 | 🎰 **[BetForge](https://github.com/BiosSystem/betforge)** | React 18, TypeScript, Vite | A sports betting platform where you can browse live odds across multiple sports, build a bet slip, and manage your bets - built with the kind of layout you'd see on a real trading desk. |
 | 📱 **[StatZilla](https://github.com/BiosSystem/statzilla)** | React, TypeScript, Docker | Track your progress across 12 mobile games in one dashboard. Connect Brawl Stars, Clash Royale, PUBG Mobile, and more - StatZilla pulls your live stats so you don't have to switch between apps. |
 | 🤖 **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | Python, Aiogram, SQLite | A Telegram bot that runs a complete digital storefront. Customers browse products, pay with Telegram Stars, and receive their orders - all without leaving the chat. Includes a live order dashboard for the admin. |
