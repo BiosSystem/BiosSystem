@@ -43,17 +43,17 @@
 #### 🛡️ Secure Applications & Platforms (Private)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| 🚓 **[OutbreakRP](https://github.com/BiosSystem/OutbreakRP)** | Lua, JavaScript, MySQL, FiveM | A high-performance FiveM GTA V roleplay server featuring custom resources, economy systems, and robust anti-cheat measures. |
-| 🎰 **[BetForge](https://github.com/BiosSystem/betforge)** | React 18, TypeScript, Vite | A sports betting platform where you can browse live odds across multiple sports, build a bet slip, and manage your bets - built with the kind of layout you'd see on a real trading desk. |
-| 📱 **[StatZilla](https://github.com/BiosSystem/statzilla)** | React, TypeScript, Docker | Track your progress across 12 mobile games in one dashboard. Connect Brawl Stars, Clash Royale, PUBG Mobile, and more - StatZilla pulls your live stats so you don't have to switch between apps. |
-| 🤖 **[StealthMatrix](https://github.com/BiosSystem/stealth-matrix)** | Python, Aiogram, SQLite | A Telegram bot that runs a complete digital storefront. Customers browse products, pay with Telegram Stars, and receive their orders - all without leaving the chat. Includes a live order dashboard for the admin. |
-| 🪟 **[WinSwift](https://github.com/BiosSystem/WinSwift)** | PowerShell | A Windows cleanup and setup tool. Remove bloatware, apply tweaks, and configure a new machine in minutes - works interactively or from the command line, and you can save your settings to reuse across multiple machines. |
+| 🚓 **OutbreakRP** | Lua, JavaScript, MySQL, FiveM | A high-performance FiveM GTA V roleplay server featuring custom resources, economy systems, and robust anti-cheat measures. |
+| 🎰 **BetForge** | React 18, TypeScript, Vite | A sports betting platform where you can browse live odds across multiple sports, build a bet slip, and manage your bets - built with the kind of layout you'd see on a real trading desk. |
+| 📱 **StatZilla** | React, TypeScript, Docker | Track your progress across 12 mobile games in one dashboard. Connect Brawl Stars, Clash Royale, PUBG Mobile, and more - StatZilla pulls your live stats so you don't have to switch between apps. |
+| 🤖 **StealthMatrix** | Python, Aiogram, SQLite | A Telegram bot that runs a complete digital storefront. Customers browse products, pay with Telegram Stars, and receive their orders - all without leaving the chat. Includes a live order dashboard for the admin. |
+| 🪟 **WinSwift** | PowerShell | A Windows cleanup and setup tool. Remove bloatware, apply tweaks, and configure a new machine in minutes - works interactively or from the command line, and you can save your settings to reuse across multiple machines. |
 
 #### ⚙️ Infrastructure & DevOps Engineering (Private Showcase)
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| ☸️ **[K8s App Delivery](https://github.com/BiosSystem/k8s-app-delivery)** | Python, Docker, Kubernetes, CI/CD | A Kubernetes sandbox demonstrating how to properly ship containerized apps - health checks, automated security scanning, and a full CI pipeline from code to running container. |
-| 🛠️ **[Terraform AWS Bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap)** | Terraform, AWS, Checkov, TFLint | Reusable Terraform modules that spin up a complete, secured AWS environment (network, servers, and storage) with automated safety checks built into every deployment. |
+| ☸️ **K8s App Delivery** | Python, Docker, Kubernetes, CI/CD | A Kubernetes sandbox demonstrating how to properly ship containerized apps - health checks, automated security scanning, and a full CI pipeline from code to running container. |
+| 🛠️ **Terraform AWS Bootstrap** | Terraform, AWS, Checkov, TFLint | Reusable Terraform modules that spin up a complete, secured AWS environment (network, servers, and storage) with automated safety checks built into every deployment. |
 
 ### 📊 GitHub Stats
 
