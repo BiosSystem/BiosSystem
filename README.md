@@ -31,31 +31,31 @@
 
 <br>
 
-### 🚀 Active Portfolio
+## 🚀 Elevator Pitch
 
-#### 🌐 Open Source (Public)
-| Project | Stack | Description |
-| :--- | :--- | :--- |
-| 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** | Vue 3, Vite, TypeScript, PWA | A fast, good-looking web interface for qBittorrent. Manage all your downloads from the browser, see live speed graphs, and get a Telegram message the moment something finishes. Installs as an app on any device. |
-| 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** | Tauri v2, Phaser, TypeScript, Rust | A desktop app with 11 classic arcade games - Pac-Man, Space Invaders, Snake, and more. Plug in a gamepad, toggle that old-school CRT look, and your high scores are saved across every game. |
-| 🍁 **[OriginalMS](https://github.com/BiosSystem/OriginalMS)** | Java 8, Maven, Apache MINA, MySQL, Docker | A fully working recreation of the original MapleStory from 2008 - all the dungeons, bosses, Cygnus Knights, and Aran class included. Runs locally with one Docker command, fully translated to English. |
-| 🪟 **[WinSwift](https://github.com/BiosSystem/WinSwift)** | PowerShell | A Windows cleanup and setup tool. Remove bloatware, apply tweaks, and configure a new machine in minutes - works interactively or from the command line, and you can save your settings to reuse across multiple machines. |
+BiosSystem acts as the central profile repository and security policy hub for a diverse portfolio of open-source and private enterprise projects. From high-performance web frontends and cloud GitOps infrastructure to zero-trust architecture and secure application delivery, this hub showcases secure-by-default design methodologies across multiple tech stacks.
 
-#### 🛡️ Secure Applications & Platforms (Private)
-| Project | Stack | Description |
-| :--- | :--- | :--- |
-| 🚓 **OutbreakRP** | Lua, JavaScript, MySQL, FiveM | A high-performance FiveM GTA V roleplay server featuring custom resources, economy systems, and robust anti-cheat measures. |
-| 🎰 **BetForge** | React 18, TypeScript, Vite | A sports betting platform where you can browse live odds across multiple sports, build a bet slip, and manage your bets - built with the kind of layout you'd see on a real trading desk. |
-| 📱 **StatZilla** | React, TypeScript, Docker | Track your progress across 12 mobile games in one dashboard. Connect Brawl Stars, Clash Royale, PUBG Mobile, and more - StatZilla pulls your live stats so you don't have to switch between apps. |
-| 🤖 **StealthMatrix** | Python, Aiogram, SQLite | A Telegram bot that runs a complete digital storefront. Customers browse products, pay with Telegram Stars, and receive their orders - all without leaving the chat. Includes a live order dashboard for the admin. |
+> 📚 **Deep Dive:** For detailed architecture, deployment strategies, and our comprehensive security hardening matrix, please read the [**BiosSystem Central Architecture & Features Wiki**](docs/WIKI.md).
 
-#### ⚙️ Infrastructure & DevOps Engineering (Private Showcase)
-| Project | Stack | Description |
-| :--- | :--- | :--- |
-| ☸️ **K8s App Delivery** | Python, Docker, Kubernetes, CI/CD | A Kubernetes sandbox demonstrating how to properly ship containerized apps - health checks, automated security scanning, and a full CI pipeline from code to running container. |
-| 🛠️ **Terraform AWS Bootstrap** | Terraform, AWS, Checkov, TFLint | Reusable Terraform modules that spin up a complete, secured AWS environment (network, servers, and storage) with automated safety checks built into every deployment. |
+## ✨ Features
 
-### 📊 GitHub Stats
+- **Portfolio Aggregation**: Centralizes open-source tools and enterprise applications under one structured hub.
+- **Global Security Policy**: Enforces strict vulnerability reporting protocols and SLAs for all projects.
+- **Security Hardening Matrix**: Catalogs applied defense-in-depth mechanisms, audits, and threat mitigations across the organization.
+- **Infrastructure as Code**: Maintains robust deployment pipelines using Terraform, Kubernetes, and ArgoCD.
+
+## ⚡ Quick Start
+
+Explore our active public projects directly:
+
+- 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** - Fast, modern PWA web interface for qBittorrent.
+- 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** - Tauri v2 desktop app featuring 11 classic arcade games.
+- 🍁 **[OriginalMS](https://github.com/BiosSystem/OriginalMS)** - Dockerized 2008 MapleStory server recreation.
+- 🪟 **[WinSwift](https://github.com/BiosSystem/WinSwift)** - Automated PowerShell cleanup and setup tool for Windows.
+
+Looking for private enterprise showcases like OutbreakRP, BetForge, or StealthMatrix? Reach out via our [Official Portal](https://bios-system.net).
+
+## 📊 GitHub Stats
 
 <p align="center">
   <a href="https://github.com/BiosSystem">
