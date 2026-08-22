@@ -32,13 +32,14 @@
 
 ## What I Build
 
-Desktop apps, game servers, bots, and cloud tooling. [AuraTorrent](https://github.com/BiosSystem/AuraTorrent) is a Vue 3 PWA that replaces the qBittorrent web UI entirely - drag-and-drop RSS feed management, dynamic rule engine, and a Telegram bot that pings you when a download finishes. [retro-game-replicas](https://github.com/BiosSystem/retro-game-replicas) is a Tauri v2 desktop launcher shipping 11 arcade games with GLSL CRT shaders, hardware gamepad API support, and persistent cross-platform high scores. [OriginalMS](https://github.com/BiosSystem/OriginalMS) is a fully working MapleStory v62 server emulator - every party quest, boss, Cygnus Knight, and Aran job restored, Dockerized for instant local deployment.
+Open-source desktop applications, high-performance web frontends, game server emulators, and system utilities.
 
-On the bot side, [stealth-matrix](https://github.com/BiosSystem/stealth-matrix) is a Telegram Stars e-commerce platform: product catalog, order tracking, instant digital delivery, and a real-time admin dashboard. [OutbreakRP](https://github.com/BiosSystem/OutbreakRP) is a FiveM zombie-apocalypse roleplay server with custom game modes and faction mechanics. [WinSwift](https://github.com/BiosSystem/WinSwift) is a PowerShell debloat and setup toolkit with audit mode, selective toggles, and exportable configuration profiles.
+- **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)**: A lightweight, responsive Vue 3 PWA designed as a complete alternative WebUI for qBittorrent. Features drag-and-drop RSS management, custom rule filtering, and automated Telegram bot delivery notifications.
+- **[retro-game-replicas](https://github.com/BiosSystem/retro-game-replicas)**: A cross-platform desktop arcade launcher built with Tauri v2, Phaser 3, and TypeScript. Bundles 11 classic arcade games with custom GLSL CRT post-processing shaders, native HTML5 Gamepad API co-op support, and persistent local score tracking.
+- **[OriginalMS](https://github.com/BiosSystem/OriginalMS)**: A full-fidelity MapleStory v62 (GMS 2008) server emulator in Java and MySQL, running over Apache MINA. Fully scripted party quests, boss instances, Cygnus Knights, and Aran classes, packaged in Docker for one-command local hosting.
+- **[WinSwift](https://github.com/BiosSystem/WinSwift)**: A modular PowerShell debloat and setup utility for Windows. Supports safe audit modes, granular feature toggles, telemetry removal, and portable JSON configuration profiles.
 
-Infrastructure repos: [universal-platform-engineering](https://github.com/BiosSystem/universal-platform-engineering) (Kustomize manifests + ArgoCD GitOps delivery) and [terraform-aws-bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap) (VPC + EC2 + S3 with Checkov and TFLint static analysis gating).
-
-> 📚 Architecture detail, security hardening matrix, and deployment contracts: [**WIKI.md**](docs/WIKI.md)
+> 📚 Architecture details, security hardening matrix, and deployment standards: [**WIKI.md**](docs/WIKI.md)
 
 ## Active Public Projects
 
@@ -47,11 +48,7 @@ Infrastructure repos: [universal-platform-engineering](https://github.com/BiosSy
 | [AuraTorrent](https://github.com/BiosSystem/AuraTorrent) | Vue 3, Vite, Pinia, SCSS | PWA replacement web UI for qBittorrent with Telegram finish alerts |
 | [retro-game-replicas](https://github.com/BiosSystem/retro-game-replicas) | TypeScript, Phaser 3, Tauri v2 | Desktop arcade launcher - 11 games, GLSL CRT shaders, gamepad API |
 | [OriginalMS](https://github.com/BiosSystem/OriginalMS) | Java, Apache MINA, MySQL, Docker | MapleStory v62 server emulator - all PQs, bosses, and jobs working |
-| [stealth-matrix](https://github.com/BiosSystem/stealth-matrix) | Python, Aiogram 3, SQLite | Telegram Stars e-commerce bot with order tracking and admin dashboard |
-| [aura-os](https://github.com/BiosSystem/aura-os) | Go, Echo, SQLite | NAS OS gateway with Docker virtualization and ZFS pool management |
 | [WinSwift](https://github.com/BiosSystem/WinSwift) | PowerShell | Windows debloat and setup toolkit with audit mode and exportable profiles |
-| [universal-platform-engineering](https://github.com/BiosSystem/universal-platform-engineering) | Kustomize, ArgoCD, Terraform | GitOps delivery layer for BiosSystem infrastructure |
-| [terraform-aws-bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap) | Terraform, Checkov, TFLint | Modular AWS VPC/EC2/S3 bootstrap with static analysis gating |
 
 ## GitHub Stats
 
