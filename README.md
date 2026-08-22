@@ -1,16 +1,15 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF72&height=200&section=header&text=BiosSystem&fontSize=70&fontAlignY=35&desc=Building%20Security-Hardened%20Open%20Source%20Software&descAlignY=55&descAlign=50" alt="BiosSystem Header" />
+﻿<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF72&height=200&section=header&text=BiosSystem&fontSize=70&fontAlignY=35&desc=Security-Hardened%20Software%20%26%20Infrastructure&descAlignY=55&descAlign=50" alt="BiosSystem Header" />
 </div>
 
-<h1 align="center">Hi there, I'm BiosSystem 👋</h1>
+<h1 align="center">BiosSystem</h1>
 
 <p align="center">
-  <strong>🌐 Official Portal: <a href="https://bios-system.net">bios-system.net</a></strong>
+  <strong>🌐 <a href="https://bios-system.net">bios-system.net</a></strong>
 </p>
 
 <p align="center">
-  <strong>System Architect | Security Hardening | DevOps & Infrastructure Engineering</strong><br>
-  Building security-hardened open-source software and infrastructure delivery pipelines.
+  <strong>Systems Engineering | Security Architecture | DevOps</strong>
 </p>
 
 <p align="center">
@@ -26,36 +25,35 @@
   <img src="https://img.shields.io/badge/Kubernetes-326ce5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
   <img src="https://img.shields.io/badge/Terraform-5835CC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
   <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
 </p>
 
 <br>
 
-## 🚀 Elevator Pitch
+## What I Build
 
-BiosSystem acts as the central profile repository and security policy hub for a diverse portfolio of open-source and private enterprise projects. From high-performance web frontends and cloud GitOps infrastructure to zero-trust architecture and secure application delivery, this hub showcases secure-by-default design methodologies across multiple tech stacks.
+Full-stack systems from the NAS up. The production stack at [bios-system.net](https://bios-system.net) runs a React 19 + FastAPI portal behind a Cloudflare tunnel with a 7-layer middleware chain (origin shield, GeoIP, CORS, CSP, anti-scraper, rate limiter, CSRF), non-root Docker containers, Litestream WAL replication to R2, and DNSSEC signed end-to-end. The CI pipeline gates every push on Bandit, Semgrep, OWASP Dependency Check, npm audit, and pip-audit before anything reaches production.
 
-> 📚 **Deep Dive:** For detailed architecture, deployment strategies, and our comprehensive security hardening matrix, please read the [**BiosSystem Central Architecture & Features Wiki**](docs/WIKI.md).
+The public repos cover different slices of that same discipline: a Vue 3 PWA that replaces the qBittorrent web UI ([AuraTorrent](https://github.com/BiosSystem/AuraTorrent)), a Tauri v2 desktop launcher for 11 arcade games with GLSL CRT shaders and hardware gamepad support ([retro-game-replicas](https://github.com/BiosSystem/retro-game-replicas)), a Dockerized 2008 MapleStory emulator with every PQ and boss route working ([OriginalMS](https://github.com/BiosSystem/OriginalMS)), a Telegram Stars e-commerce bot with order tracking and a real admin panel ([stealth-matrix](https://github.com/BiosSystem/stealth-matrix)), and a Go gateway exposing a custom API layer for a self-hosted NAS ([aura-os](https://github.com/BiosSystem/aura-os)).
 
-## ✨ Features
+Infrastructure work lives in [universal-platform-engineering](https://github.com/BiosSystem/universal-platform-engineering) (Kustomize + ArgoCD GitOps delivery) and [terraform-aws-bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap) (VPC + EC2 + S3 with Checkov and TFLint gating).
 
-- **Portfolio Aggregation**: Centralizes open-source tools and enterprise applications under one structured hub.
-- **Global Security Policy**: Enforces strict vulnerability reporting protocols and SLAs for all projects.
-- **Security Hardening Matrix**: Catalogs applied defense-in-depth mechanisms, audits, and threat mitigations across the organization.
-- **Infrastructure as Code**: Maintains robust deployment pipelines using Terraform, Kubernetes, and ArgoCD.
+> 📚 Architecture detail, security hardening matrix, and deployment contracts: [**WIKI.md**](docs/WIKI.md)
 
-## ⚡ Quick Start
+## Active Public Projects
 
-Explore our active public projects directly:
+| Project | Stack | Description |
+|---|---|---|
+| [AuraTorrent](https://github.com/BiosSystem/AuraTorrent) | Vue 3, Vite, Pinia, SCSS | PWA replacement web UI for qBittorrent with Telegram finish alerts |
+| [retro-game-replicas](https://github.com/BiosSystem/retro-game-replicas) | TypeScript, Phaser 3, Tauri v2 | Desktop arcade launcher - 11 games, GLSL CRT shaders, gamepad API |
+| [OriginalMS](https://github.com/BiosSystem/OriginalMS) | Java, Apache MINA, MySQL, Docker | MapleStory v62 server emulator - all PQs, bosses, and jobs working |
+| [stealth-matrix](https://github.com/BiosSystem/stealth-matrix) | Python, Aiogram 3, SQLite | Telegram Stars e-commerce bot with order tracking and admin dashboard |
+| [aura-os](https://github.com/BiosSystem/aura-os) | Go, Echo, SQLite | NAS OS gateway with Docker virtualization and ZFS pool management |
+| [WinSwift](https://github.com/BiosSystem/WinSwift) | PowerShell | Windows debloat and setup toolkit with audit mode and exportable profiles |
+| [universal-platform-engineering](https://github.com/BiosSystem/universal-platform-engineering) | Kustomize, ArgoCD, Terraform | GitOps delivery layer for BiosSystem infrastructure |
+| [terraform-aws-bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap) | Terraform, Checkov, TFLint | Modular AWS VPC/EC2/S3 bootstrap with static analysis gating |
 
-- 🌀 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** - Fast, modern PWA web interface for qBittorrent.
-- 🕹️ **[Retro Arcade](https://github.com/BiosSystem/retro-game-replicas)** - Tauri v2 desktop app featuring 11 classic arcade games.
-- 🍁 **[OriginalMS](https://github.com/BiosSystem/OriginalMS)** - Dockerized 2008 MapleStory server recreation.
-- 🪟 **[WinSwift](https://github.com/BiosSystem/WinSwift)** - Automated PowerShell cleanup and setup tool for Windows.
-
-Looking for private enterprise showcases like OutbreakRP, BetForge, or StealthMatrix? Reach out via our [Official Portal](https://bios-system.net).
-
-## 📊 GitHub Stats
+## GitHub Stats
 
 <p align="center">
   <a href="https://github.com/BiosSystem">
