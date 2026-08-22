@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF72&height=200&section=header&text=BiosSystem&fontSize=70&fontAlignY=35&desc=Security-Hardened%20Software%20%26%20Infrastructure&descAlignY=55&descAlign=50" alt="BiosSystem Header" />
 </div>
 
@@ -32,11 +32,11 @@
 
 ## What I Build
 
-Full-stack systems from the NAS up. The production stack at [bios-system.net](https://bios-system.net) runs a React 19 + FastAPI portal behind a Cloudflare tunnel with a 7-layer middleware chain (origin shield, GeoIP, CORS, CSP, anti-scraper, rate limiter, CSRF), non-root Docker containers, Litestream WAL replication to R2, and DNSSEC signed end-to-end. The CI pipeline gates every push on Bandit, Semgrep, OWASP Dependency Check, npm audit, and pip-audit before anything reaches production.
+Desktop apps, game servers, bots, and cloud tooling. [AuraTorrent](https://github.com/BiosSystem/AuraTorrent) is a Vue 3 PWA that replaces the qBittorrent web UI entirely - drag-and-drop RSS feed management, dynamic rule engine, and a Telegram bot that pings you when a download finishes. [retro-game-replicas](https://github.com/BiosSystem/retro-game-replicas) is a Tauri v2 desktop launcher shipping 11 arcade games with GLSL CRT shaders, hardware gamepad API support, and persistent cross-platform high scores. [OriginalMS](https://github.com/BiosSystem/OriginalMS) is a fully working MapleStory v62 server emulator - every party quest, boss, Cygnus Knight, and Aran job restored, Dockerized for instant local deployment.
 
-The public repos cover different slices of that same discipline: a Vue 3 PWA that replaces the qBittorrent web UI ([AuraTorrent](https://github.com/BiosSystem/AuraTorrent)), a Tauri v2 desktop launcher for 11 arcade games with GLSL CRT shaders and hardware gamepad support ([retro-game-replicas](https://github.com/BiosSystem/retro-game-replicas)), a Dockerized 2008 MapleStory emulator with every PQ and boss route working ([OriginalMS](https://github.com/BiosSystem/OriginalMS)), a Telegram Stars e-commerce bot with order tracking and a real admin panel ([stealth-matrix](https://github.com/BiosSystem/stealth-matrix)), and a Go gateway exposing a custom API layer for a self-hosted NAS ([aura-os](https://github.com/BiosSystem/aura-os)).
+On the bot side, [stealth-matrix](https://github.com/BiosSystem/stealth-matrix) is a Telegram Stars e-commerce platform: product catalog, order tracking, instant digital delivery, and a real-time admin dashboard. [OutbreakRP](https://github.com/BiosSystem/OutbreakRP) is a FiveM zombie-apocalypse roleplay server with custom game modes and faction mechanics. [WinSwift](https://github.com/BiosSystem/WinSwift) is a PowerShell debloat and setup toolkit with audit mode, selective toggles, and exportable configuration profiles.
 
-Infrastructure work lives in [universal-platform-engineering](https://github.com/BiosSystem/universal-platform-engineering) (Kustomize + ArgoCD GitOps delivery) and [terraform-aws-bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap) (VPC + EC2 + S3 with Checkov and TFLint gating).
+Infrastructure repos: [universal-platform-engineering](https://github.com/BiosSystem/universal-platform-engineering) (Kustomize manifests + ArgoCD GitOps delivery) and [terraform-aws-bootstrap](https://github.com/BiosSystem/terraform-aws-bootstrap) (VPC + EC2 + S3 with Checkov and TFLint static analysis gating).
 
 > 📚 Architecture detail, security hardening matrix, and deployment contracts: [**WIKI.md**](docs/WIKI.md)
 
