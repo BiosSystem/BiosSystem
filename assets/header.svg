@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" width="100%" height="240">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c10"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a1017"/>
+    </linearGradient>
+
+    <!-- Neon Accent Gradients -->
+    <linearGradient id="neonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF72"/>
+      <stop offset="70%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#00AA55"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF72" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#00E5FF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00FF72" stop-opacity="0.05"/>
+    </linearGradient>
+
+    <linearGradient id="waveGrad2" x1="100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#00FF72" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="cyberGrid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00FF72" stroke-width="0.75" stroke-opacity="0.07"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Card with Rounded Edges and Border -->
+  <rect width="1200" height="240" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="240" rx="16" fill="url(#cyberGrid)"/>
+  <rect x="1" y="1" width="1198" height="238" rx="15" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- Fluid Cybernetic Waves -->
+  <path d="M 0,170 C 250,110 420,230 700,160 C 920,105 1060,200 1200,140 L 1200,240 L 0,240 Z" fill="url(#waveGrad1)"/>
+  <path d="M 0,195 C 180,140 480,245 780,185 C 980,145 1100,225 1200,180 L 1200,240 L 0,240 Z" fill="url(#waveGrad2)"/>
+  <path d="M 0,170 C 250,110 420,230 700,160 C 920,105 1060,200 1200,140" fill="none" stroke="#00FF72" stroke-width="2.5" stroke-opacity="0.8" filter="url(#neonGlow)"/>
+  <path d="M 0,195 C 180,140 480,245 780,185 C 980,145 1100,225 1200,180" fill="none" stroke="#00E5FF" stroke-width="1.5" stroke-opacity="0.6"/>
+
+  <!-- Decorative Corner Accents -->
+  <path d="M 24,40 L 24,24 L 40,24" fill="none" stroke="#00FF72" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 1176,40 L 1176,24 L 1160,24" fill="none" stroke="#00FF72" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 24,200 L 24,216 L 40,216" fill="none" stroke="#00FF72" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M 1176,200 L 1176,216 L 1160,216" fill="none" stroke="#00FF72" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Top Status Indicator -->
+  <g transform="translate(600, 48)">
+    <circle cx="-135" cy="-4" r="4.5" fill="#00FF72" filter="url(#neonGlow)"/>
+    <text x="0" y="0" fill="#a1a1aa" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="3" text-anchor="middle">
+      SYSTEMS KERNEL  •  SECURE RUNTIMES  •  TELEMETRY
+    </text>
+  </g>
+
+  <!-- Main Title: BiosSystem -->
+  <g transform="translate(600, 118)">
+    <text x="0" y="0" fill="url(#neonGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, Helvetica, Arial, sans-serif" font-size="62" font-weight="900" letter-spacing="4" text-anchor="middle" filter="url(#neonGlow)">
+      BiosSystem
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(600, 156)">
+    <text x="0" y="0" fill="#e6edf3" font-family="'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, monospace" font-size="16" font-weight="600" letter-spacing="4.5" text-anchor="middle">
+      SECURITY-HARDENED SOFTWARE &amp; INFRASTRUCTURE
+    </text>
+  </g>
+</svg>
