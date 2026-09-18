@@ -31,9 +31,15 @@
 
 ## Architecture & System Topology
 
+<div align="center">
+  <img src="assets/architecture.svg" alt="BiosSystem Architecture &amp; System Topology" width="100%" />
+</div>
+
+<br>
+
 ```mermaid
 flowchart TD
-    subgraph ClientLayer["Client & Desktop Tier"]
+    subgraph Clients["CLIENT & DESKTOP TIER"]
         Aura["AuraTorrent (Vue 3 PWA)"]
         Arcade["retro-game-replicas (Tauri v2 + Phaser 3)"]
         Winnow["Winnow (PowerShell + WPF CLI)"]
@@ -41,31 +47,76 @@ flowchart TD
         StatZilla["StatZilla (React 19 Gaming Telemetry)"]
     end
 
-    subgraph ServiceLayer["Application & Telemetry Tier"]
-        Steady["Steady (Network Throughput & Latency Engine)"]
-        Sniplink["Sniplink (Privacy URL Shortener & Analytics)"]
-        OmniToken["OmniToken Suite (Protobuf Ingestion & Governance)"]
-        BetForge["BetForge (Sports Odds & In-Play Simulation)"]
-        Tracker["TorrentsTracker (NestJS Tracker Daemon)"]
+    subgraph Services["APPLICATION & TELEMETRY ENGINES"]
+        Steady["Steady (Network Throughput & Latency)"]
+        Sniplink["Sniplink (URL Routing & Analytics)"]
+        OmniToken["OmniToken Suite (Protobuf Ingestion)"]
+        BetForge["BetForge (Sports Odds & In-Play Models)"]
         Stealth["StealthMatrix (Telegram Stars Storefront)"]
     end
 
-    subgraph CoreLayer["Emulation & Spatial Tier"]
-        OrigMS["OriginalMS (MapleStory v62 - MINA + MySQL)"]
+    subgraph Emulation["EMULATION & SPATIAL PLATFORMS"]
+        OrigMS["OriginalMS (MapleStory v62 - MINA)"]
+        Globe["God's Eye View (3D Orbital Globe)"]
         Outbreak["OutbreakRP (FiveM Multiplayer Framework)"]
-        Globe["God's Eye View (3D Geospatial Engine)"]
+        Tracker["TorrentsTracker (NestJS Tracker Daemon)"]
     end
 
-    subgraph InfraLayer["Infrastructure & Security Tier"]
-        K8s["k8s-app-delivery (Kubernetes GitOps + Trivy)"]
-        AWS["terraform-aws-bootstrap (VPC + EC2 + S3 IaC)"]
-        Docker["Docker Multi-Stage Containerization"]
+    subgraph Storage["DATA & PERSISTENCE LAYER"]
+        DBSQLite[("SQLite WAL (Time-Series & Telemetry)")]
+        DBPG[("PostgreSQL & Prisma (Relational State)")]
+        DBMySQL[("MySQL Database (Game State & WZ XML)")]
     end
 
-    ClientLayer --> ServiceLayer
-    ServiceLayer --> InfraLayer
-    CoreLayer --> InfraLayer
+    subgraph Infrastructure["CLOUD GITOPS & INFRASTRUCTURE"]
+        K8s["k8s-app-delivery (Kubernetes GitOps & Trivy)"]
+        AWS["terraform-aws-bootstrap (VPC & EC2 & S3 IaC)"]
+        Docker["Docker Engine (Multi-Stage Containers)"]
+    end
+
+    StatZilla -->|"Official API Polling"| Services
+    Aura -->|"Daemon RPC & Telegram Webhook"| Services
+    Steady -->|"Latency & Jitter Metrics"| DBSQLite
+    Sniplink -->|"Redirects & Click Telemetry"| DBSQLite
+    OmniToken -->|"Monotonic Ratchet Telemetry"| Clients
+    Stealth -->|"Orders & Catalog State"| DBSQLite
+    OrigMS -->|"High-Throughput Socket I/O"| DBMySQL
+    Tracker -->|"Peer Swarm Announce/Scrape"| DBPG
+    Therm -->|"Direct Hardware Telemetry"| DBSQLite
+
+    Services -->|"Container Isolation"| Docker
+    Emulation -->|"Container Isolation"| Docker
+    Docker -->|"Manifest Orchestration"| K8s
+    K8s -->|"Automated Cloud Delivery"| AWS
+
+    classDef clientTier fill:#062316,stroke:#00FF72,stroke-width:2px,color:#FFFFFF;
+    classDef serviceTier fill:#061D2E,stroke:#00E5FF,stroke-width:2px,color:#FFFFFF;
+    classDef emuTier fill:#1E0B2B,stroke:#C084FC,stroke-width:2px,color:#FFFFFF;
+    classDef storeTier fill:#291804,stroke:#F59E0B,stroke-width:2px,color:#FFFFFF;
+    classDef infraTier fill:#24090E,stroke:#FB7185,stroke-width:2px,color:#FFFFFF;
+
+    class Aura,Arcade,Winnow,Therm,StatZilla clientTier;
+    class Steady,Sniplink,OmniToken,BetForge,Stealth serviceTier;
+    class OrigMS,Globe,Outbreak,Tracker emuTier;
+    class DBSQLite,DBPG,DBMySQL storeTier;
+    class K8s,AWS,Docker infraTier;
+
+    style Clients fill:#0D1117,stroke:#00FF72,stroke-width:1.5px,stroke-dasharray: 4 4,color:#00FF72;
+    style Services fill:#0D1117,stroke:#00E5FF,stroke-width:1.5px,stroke-dasharray: 4 4,color:#00E5FF;
+    style Emulation fill:#0D1117,stroke:#C084FC,stroke-width:1.5px,stroke-dasharray: 4 4,color:#C084FC;
+    style Storage fill:#0D1117,stroke:#F59E0B,stroke-width:1.5px,stroke-dasharray: 4 4,color:#F59E0B;
+    style Infrastructure fill:#0D1117,stroke:#FB7185,stroke-width:1.5px,stroke-dasharray: 4 4,color:#FB7185;
 ```
+
+<br>
+
+| Architectural Tier | Primary Stack | Operational Responsibilities & Dataflow |
+|---|---|---|
+| **Tier 1: Client Runtimes** | Vue 3, React 19, Tauri v2, PowerShell | Low-latency UIs, desktop hardware control, local state isolation, and Gamepad API co-op |
+| **Tier 2: Telemetry Engines** | FastAPI, NestJS, Python 3.12, Aiogram | Protobuf wire ratchets, bandwidth and jitter probing, custom URL routing, and bot payments |
+| **Tier 3: Emulation & Spatial** | Java 8 MINA, WebGL, Cesium, Lua Qbox | Asynchronous network packet emulation, 3D orbital entity tracking, and multiplayer game loops |
+| **Tier 4: Data & Persistence** | SQLite WAL, PostgreSQL Prisma, MySQL | Sub-millisecond time-series logs, ACID transaction records, and high-concurrency player schemas |
+| **Tier 5: Cloud & GitOps** | Docker, Kubernetes, Terraform AWS | Non-root container isolation, automated ArgoCD CI/CD pipelines, and KMS-encrypted IaC state |
 
 <br>
 
