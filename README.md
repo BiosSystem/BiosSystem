@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF72&height=200&section=header&text=BiosSystem&fontSize=70&fontAlignY=35&desc=Security-Hardened%20Software%20%26%20Infrastructure&descAlignY=55&descAlign=50" alt="BiosSystem Header" />
+  <img src="assets/header.svg" alt="BiosSystem" width="100%" />
 </div>
 
 <h1 align="center">BiosSystem</h1>
