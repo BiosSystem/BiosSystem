@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="680">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgCanvas" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a0e"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#080c10"/>
+    </linearGradient>
+
+    <!-- Card Background Gradients -->
+    <linearGradient id="cardClient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#091d14"/>
+      <stop offset="100%" stop-color="#04120c"/>
+    </linearGradient>
+
+    <linearGradient id="cardService" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#061a29"/>
+      <stop offset="100%" stop-color="#030f18"/>
+    </linearGradient>
+
+    <linearGradient id="cardEmu" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#180b24"/>
+      <stop offset="100%" stop-color="#0e0517"/>
+    </linearGradient>
+
+    <linearGradient id="cardData" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#211505"/>
+      <stop offset="100%" stop-color="#140c02"/>
+    </linearGradient>
+
+    <linearGradient id="cardInfra" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24080e"/>
+      <stop offset="100%" stop-color="#140306"/>
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="archGrid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30" fill="none" stroke="#30363d" stroke-width="0.5" stroke-opacity="0.25"/>
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glowGreen" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    .tier-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 800; letter-spacing: 2px; }
+    .node-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 700; fill: #ffffff; }
+    .node-desc { font-family: 'SF Mono', Consolas, 'Roboto Mono', monospace; font-size: 10.5px; fill: #8b949e; }
+    .badge-txt { font-family: 'SF Mono', Consolas, monospace; font-size: 9.5px; font-weight: 600; }
+  </style>
+
+  <!-- Canvas Base -->
+  <rect width="1200" height="680" rx="16" fill="url(#bgCanvas)"/>
+  <rect width="1200" height="680" rx="16" fill="url(#archGrid)"/>
+  <rect x="1" y="1" width="1198" height="678" rx="15" fill="none" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- ================= HEADER SECTION ================= -->
+  <g transform="translate(600, 38)">
+    <text x="0" y="0" text-anchor="middle" fill="#00FF72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="900" letter-spacing="3" filter="url(#glowGreen)">
+      SYSTEM ARCHITECTURE &amp; TOPOLOGY MATRIX
+    </text>
+    <text x="0" y="20" text-anchor="middle" fill="#8b949e" font-family="'SF Mono', Consolas, monospace" font-size="11" letter-spacing="2">
+      REACTIVE CLIENTS  •  TELEMETRY SERVICES  •  DISTRIBUTED ENGINES  •  GITOPS INFRASTRUCTURE
+    </text>
+  </g>
+
+  <!-- ================= TIER 1: CLIENT & DESKTOP RUNTIMES ================= -->
+  <g transform="translate(30, 75)">
+    <!-- Container -->
+    <rect width="1140" height="135" rx="12" fill="url(#cardClient)" stroke="#00FF72" stroke-width="1.5" stroke-opacity="0.8"/>
+    <!-- Header -->
+    <circle cx="20" cy="22" r="5" fill="#00FF72"/>
+    <text x="34" y="26" fill="#00FF72" class="tier-title">TIER 1: CLIENT APPLICATIONS &amp; DESKTOP SYSTEMS</text>
+    <text x="1120" y="25" text-anchor="end" fill="#8b949e" font-family="'SF Mono', Consolas, monospace" font-size="10.5">FRONTEND / DESKTOP RUNTIMES</text>
+
+    <!-- Node 1: AuraTorrent -->
+    <g transform="translate(20, 42)">
+      <rect width="208" height="76" rx="8" fill="#08140e" stroke="#00FF72" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="12" y="24" class="node-title">AuraTorrent</text>
+      <text x="12" y="42" class="node-desc">Vue 3 • Vite • Pinia PWA</text>
+      <rect x="12" y="52" width="105" height="16" rx="4" fill="#00FF72" fill-opacity="0.15"/>
+      <text x="16" y="64" fill="#00FF72" class="badge-txt">Telegram Bot RPC</text>
+    </g>
+
+    <!-- Node 2: retro-game-replicas -->
+    <g transform="translate(244, 42)">
+      <rect width="208" height="76" rx="8" fill="#08140e" stroke="#00FF72" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="12" y="24" class="node-title">retro-game-replicas</text>
+      <text x="12" y="42" class="node-desc">Tauri v2 • Phaser 3 • Rust</text>
+      <rect x="12" y="52" width="100" height="16" rx="4" fill="#00FF72" fill-opacity="0.15"/>
+      <text x="16" y="64" fill="#00FF72" class="badge-txt">GLSL CRT Shaders</text>
+    </g>
+
+    <!-- Node 3: Winnow -->
+    <g transform="translate(468, 42)">
+      <rect width="208" height="76" rx="8" fill="#08140e" stroke="#00FF72" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="12" y="24" class="node-title">Winnow</text>
+      <text x="12" y="42" class="node-desc">PowerShell Core • WPF</text>
+      <rect x="12" y="52" width="112" height="16" rx="4" fill="#00FF72" fill-opacity="0.15"/>
+      <text x="16" y="64" fill="#00FF72" class="badge-txt">Audit Mode Engine</text>
+    </g>
+
+    <!-- Node 4: Therm Studio -->
+    <g transform="translate(692, 42)">
+      <rect width="208" height="76" rx="8" fill="#08140e" stroke="#00FF72" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="12" y="24" class="node-title">Therm Studio</text>
+      <text x="12" y="42" class="node-desc">USB LCD Telemetry Suite</text>
+      <rect x="12" y="52" width="112" height="16" rx="4" fill="#00FF72" fill-opacity="0.15"/>
+      <text x="16" y="64" fill="#00FF72" class="badge-txt">320x320 Display I/O</text>
+    </g>
+
+    <!-- Node 5: StatZilla -->
+    <g transform="translate(916, 42)">
+      <rect width="204" height="76" rx="8" fill="#08140e" stroke="#00FF72" stroke-width="1" stroke-opacity="0.5"/>
+      <text x="12" y="24" class="node-title">StatZilla</text>
+      <text x="12" y="42" class="node-desc">React 19 • TypeScript PWA</text>
+      <rect x="12" y="52" width="105" height="16" rx="4" fill="#00FF72" fill-opacity="0.15"/>
+      <text x="16" y="64" fill="#00FF72" class="badge-txt">Supercell Live APIs</text>
+    </g>
+  </g>
+
+  <!-- ================= TIER 2 & 3: SERVICES & ENGINES (MIDDLE LAYER) ================= -->
+  <!-- Left Box: Telemetry & Specialized Services -->
+  <g transform="translate(30, 226)">
+    <rect width="555" height="230" rx="12" fill="url(#cardService)" stroke="#00E5FF" stroke-width="1.5" stroke-opacity="0.8"/>
+    <circle cx="20" cy="22" r="5" fill="#00E5FF"/>
+    <text x="34" y="26" fill="#00E5FF" class="tier-title">TIER 2: TELEMETRY &amp; SPECIALIZED ENGINES</text>
+
+    <!-- Subnode 1: Steady -->
+    <g transform="translate(20, 42)">
+      <rect width="248" height="78" rx="8" fill="#05121c" stroke="#00E5FF" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="22" class="node-title">Steady (SpeedTest)</text>
+      <text x="12" y="40" class="node-desc">FastAPI • Throughput &amp; Jitter</text>
+      <rect x="12" y="50" width="140" height="18" rx="4" fill="#00E5FF" fill-opacity="0.15"/>
+      <text x="16" y="63" fill="#00E5FF" class="badge-txt">Zero-Third-Party Engine</text>
+    </g>
+
+    <!-- Subnode 2: Sniplink -->
+    <g transform="translate(287, 42)">
+      <rect width="248" height="78" rx="8" fill="#05121c" stroke="#00E5FF" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="22" class="node-title">Sniplink</text>
+      <text x="12" y="40" class="node-desc">FastAPI • Custom Routing</text>
+      <rect x="12" y="50" width="148" height="18" rx="4" fill="#00E5FF" fill-opacity="0.15"/>
+      <text x="16" y="63" fill="#00E5FF" class="badge-txt">Privacy URL &amp; Analytics</text>
+    </g>
+
+    <!-- Subnode 3: OmniToken Suite -->
+    <g transform="translate(20, 134)">
+      <rect width="248" height="78" rx="8" fill="#05121c" stroke="#00E5FF" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="22" class="node-title">OmniToken Suite</text>
+      <text x="12" y="40" class="node-desc">Protobuf Ingest • Next.js 15 UI</text>
+      <rect x="12" y="50" width="142" height="18" rx="4" fill="#00E5FF" fill-opacity="0.15"/>
+      <text x="16" y="63" fill="#00E5FF" class="badge-txt">High-Water Ratchet</text>
+    </g>
+
+    <!-- Subnode 4: StealthMatrix -->
+    <g transform="translate(287, 134)">
+      <rect width="248" height="78" rx="8" fill="#05121c" stroke="#00E5FF" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="22" class="node-title">StealthMatrix</text>
+      <text x="12" y="40" class="node-desc">Aiogram 3.7 • Telegram Stars</text>
+      <rect x="12" y="50" width="140" height="18" rx="4" fill="#00E5FF" fill-opacity="0.15"/>
+      <text x="16" y="63" fill="#00E5FF" class="badge-txt">Sanitized FSM Bot</text>
+    </g>
+  </g>
+
+  <!-- Right Box: Emulation & Spatial Intelligence -->
+  <g transform="translate(615, 226)">
+    <rect width="555" height="230" rx="12" fill="url(#cardEmu)" stroke="#C084FC" stroke-width="1.5" stroke-opacity="0.8"/>
+    <circle cx="20" cy="22" r="5" fill="#C084FC"/>
+    <text x="34" y="26" fill="#C084FC" class="tier-title">TIER 3: EMULATION, SPATIAL &amp; PROTOCOLS</text>
+
+    <!-- Subnode 1: OriginalMS -->
+    <g transform="translate(20, 42)">
+      <rect width="248" height="78" rx="8" fill="#10051a" stroke="#C084FC" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="22" class="node-title">OriginalMS</text>
+      <text x="12" y="40" class="node-desc">Java 8 • Apache MINA Sockets</text>
+      <rect x="12" y="50" width="138" height="18" rx="4" fill="#C084FC" fill-opacity="0.15"/>
+      <text x="16" y="63" fill="#C084FC" class="badge-txt">MapleStory v62 Emulator</text>
+    </g>
+
+    <!-- Subnode 2: God's Eye View -->
+    <g transform="translate(287, 42)">
+      <rect width="248" height="78" rx="8" fill="#10051a" stroke="#C084FC" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="22" class="node-title">God's Eye View</text>
+      <text x="12" y="40" class="node-desc">Cesium • Three.js • WebGL</text>
+      <rect x="12" y="50" width="144" height="18" rx="4" fill="#C084FC" fill-opacity="0.15"/>
+      <text x="16" y="63" fill="#C084FC" class="badge-txt">3D Orbital Satellite HUD</text>
+    </g>
+
+    <!-- Subnode 3: TorrentsTracker -->
+    <g transform="translate(20, 134)">
+      <rect width="248" height="78" rx="8" fill="#10051a" stroke="#C084FC" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="22" class="node-title">TorrentsTracker</text>
+      <text x="12" y="40" class="node-desc">NestJS • Prisma • Next.js</text>
+      <rect x="12" y="50" width="138" height="18" rx="4" fill="#C084FC" fill-opacity="0.15"/>
+      <text x="16" y="63" fill="#C084FC" class="badge-txt">Announce/Scrape Daemon</text>
+    </g>
+
+    <!-- Subnode 4: OutbreakRP -->
+    <g transform="translate(287, 134)">
+      <rect width="248" height="78" rx="8" fill="#10051a" stroke="#C084FC" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="22" class="node-title">OutbreakRP</text>
+      <text x="12" y="40" class="node-desc">FiveM FXServer • Qbox Lua</text>
+      <rect x="12" y="50" width="138" height="18" rx="4" fill="#C084FC" fill-opacity="0.15"/>
+      <text x="16" y="63" fill="#C084FC" class="badge-txt">Survival RPG Mechanics</text>
+    </g>
+  </g>
+
+  <!-- ================= TIER 4 & 5: DATA & INFRASTRUCTURE (BOTTOM LAYER) ================= -->
+  <!-- Left Box: Persistence & Telemetry Stores -->
+  <g transform="translate(30, 472)">
+    <rect width="555" height="185" rx="12" fill="url(#cardData)" stroke="#F59E0B" stroke-width="1.5" stroke-opacity="0.8"/>
+    <circle cx="20" cy="22" r="5" fill="#F59E0B"/>
+    <text x="34" y="26" fill="#F59E0B" class="tier-title">TIER 4: DATA PERSISTENCE &amp; STORAGE</text>
+
+    <!-- Subnode 1: SQLite WAL -->
+    <g transform="translate(20, 42)">
+      <rect width="158" height="125" rx="8" fill="#170d02" stroke="#F59E0B" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="24" class="node-title">SQLite WAL</text>
+      <text x="12" y="44" class="node-desc">Time-Series Logs</text>
+      <text x="12" y="60" class="node-desc">Local Telemetry</text>
+      <text x="12" y="76" class="node-desc">FSM State Caches</text>
+      <rect x="12" y="94" width="134" height="18" rx="4" fill="#F59E0B" fill-opacity="0.15"/>
+      <text x="16" y="107" fill="#F59E0B" class="badge-txt">Sub-Millisecond I/O</text>
+    </g>
+
+    <!-- Subnode 2: PostgreSQL & Prisma -->
+    <g transform="translate(198, 42)">
+      <rect width="158" height="125" rx="8" fill="#170d02" stroke="#F59E0B" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="24" class="node-title">PostgreSQL</text>
+      <text x="12" y="44" class="node-desc">Prisma Relational</text>
+      <text x="12" y="60" class="node-desc">Peer Ratio Tables</text>
+      <text x="12" y="76" class="node-desc">Auth &amp; Session DB</text>
+      <rect x="12" y="94" width="134" height="18" rx="4" fill="#F59E0B" fill-opacity="0.15"/>
+      <text x="16" y="107" fill="#F59E0B" class="badge-txt">ACID Transactional</text>
+    </g>
+
+    <!-- Subnode 3: MySQL 5.7 / 8 -->
+    <g transform="translate(376, 42)">
+      <rect width="158" height="125" rx="8" fill="#170d02" stroke="#F59E0B" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="24" class="node-title">MySQL Sockets</text>
+      <text x="12" y="44" class="node-desc">High-Concurrency</text>
+      <text x="12" y="60" class="node-desc">Player Characters</text>
+      <text x="12" y="76" class="node-desc">Inventory &amp; Quests</text>
+      <rect x="12" y="94" width="134" height="18" rx="4" fill="#F59E0B" fill-opacity="0.15"/>
+      <text x="16" y="107" fill="#F59E0B" class="badge-txt">MINA Connection Pool</text>
+    </g>
+  </g>
+
+  <!-- Right Box: Cloud Infrastructure & DevOps -->
+  <g transform="translate(615, 472)">
+    <rect width="555" height="185" rx="12" fill="url(#cardInfra)" stroke="#FB7185" stroke-width="1.5" stroke-opacity="0.8"/>
+    <circle cx="20" cy="22" r="5" fill="#FB7185"/>
+    <text x="34" y="26" fill="#FB7185" class="tier-title">TIER 5: CLOUD GITOPS &amp; INFRASTRUCTURE</text>
+
+    <!-- Subnode 1: Docker Containers -->
+    <g transform="translate(20, 42)">
+      <rect width="158" height="125" rx="8" fill="#170308" stroke="#FB7185" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="24" class="node-title">Docker Engine</text>
+      <text x="12" y="44" class="node-desc">Multi-Stage Builds</text>
+      <text x="12" y="60" class="node-desc">Non-Root Containers</text>
+      <text x="12" y="76" class="node-desc">Compose Stacks</text>
+      <rect x="12" y="94" width="134" height="18" rx="4" fill="#FB7185" fill-opacity="0.15"/>
+      <text x="16" y="107" fill="#FB7185" class="badge-txt">Isolated Runtimes</text>
+    </g>
+
+    <!-- Subnode 2: Kubernetes GitOps -->
+    <g transform="translate(198, 42)">
+      <rect width="158" height="125" rx="8" fill="#170308" stroke="#FB7185" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="24" class="node-title">k8s-app-delivery</text>
+      <text x="12" y="44" class="node-desc">K8s Manifests</text>
+      <text x="12" y="60" class="node-desc">Trivy Vulnerability</text>
+      <text x="12" y="76" class="node-desc">Liveness Probes</text>
+      <rect x="12" y="94" width="134" height="18" rx="4" fill="#FB7185" fill-opacity="0.15"/>
+      <text x="16" y="107" fill="#FB7185" class="badge-txt">Automated CI Delivery</text>
+    </g>
+
+    <!-- Subnode 3: Terraform AWS -->
+    <g transform="translate(376, 42)">
+      <rect width="158" height="125" rx="8" fill="#170308" stroke="#FB7185" stroke-width="0.75" stroke-opacity="0.5"/>
+      <text x="12" y="24" class="node-title">AWS Terraform</text>
+      <text x="12" y="44" class="node-desc">Isolated Multi-AZ VPC</text>
+      <text x="12" y="60" class="node-desc">EC2 via SSM Only</text>
+      <text x="12" y="76" class="node-desc">Checkov Verified</text>
+      <rect x="12" y="94" width="134" height="18" rx="4" fill="#FB7185" fill-opacity="0.15"/>
+      <text x="16" y="107" fill="#FB7185" class="badge-txt">Encrypted S3 &amp; KMS</text>
+    </g>
+  </g>
+</svg>
