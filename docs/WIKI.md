@@ -24,7 +24,7 @@ This repository primarily serves as a markdown-based profile (`README.md`) and c
 
 ## Security
 Security is a foundational design requirement across the entire BiosSystem portfolio:
-- **Vulnerability Reporting**: Issues must be submitted privately to `security@bios-system.net`, avoiding public disclosure until patches are ready.
+- **Vulnerability Reporting**: Issues must be submitted securely via GitHub Security Advisories, avoiding public disclosure until patches are ready.
 - **Strict SLAs**: Guarantees a 24-hour acknowledgement and a 3-day remediation plan.
 - **Active Mitigations Cataloged**:
   - Prevention of Open Redirects and Credential Leakage in web applications.
