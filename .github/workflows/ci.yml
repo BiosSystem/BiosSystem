@@ -1,0 +1,59 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [master, main]
+  push:
+    branches: [master, main]
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Verify Markdown Documentation
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Check Markdown Integrity
+        run: |
+          python -c "
+          import os, sys
+          failed = False
+          for root, dirs, files in os.walk('.'):
+              if '.git' in root:
+                  continue
+              for f in files:
+                  if f.endswith('.md'):
+                      p = os.path.join(root, f)
+                      try:
+                          with open(p, 'r', encoding='utf-8') as fh:
+                              content = fh.read()
+                              if not content.strip():
+                                  print(f'Empty file: {p}')
+                                  failed = True
+                      except Exception as e:
+                          print(f'Read error in {p}: {e}')
+                          failed = True
+          if failed:
+              sys.exit(1)
+          print('All Markdown documents verified successfully.')
+          "
+
+      - name: Step Summary
+        if: always()
+        run: |
+          echo "### Documentation Verification" >> $GITHUB_STEP_SUMMARY
+          echo "- Markdown Integrity: ${{ job.status }}" >> $GITHUB_STEP_SUMMARY
