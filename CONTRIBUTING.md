@@ -7,20 +7,12 @@ Thank you for contributing to BiosSystem. To maintain high code quality and clea
 ## Commit Guidelines
 
 ### 1. Plain Imperative Messages
-- Write commit subjects as concise, direct English imperatives.
-- **Do not** use conventional commit prefixes (`feat:`, `fix:`, `chore:`, `docs:`, `ci:`, `test:`).
-- **Do not** use em dashes (`—`). Use standard hyphens (`-`) instead.
-- **Do not** add AI signatures, `Co-Authored-By:` trailers, or noreply bot tags.
+- Write commit subjects as concise, direct English imperatives describing what changed and why.
 
-**Good Examples:**
+**Examples:**
 - `Add cash-out feature to bet slip`
 - `Fix odds conversion for fractional display`
 - `Update telemetry data schema and verify pipeline`
-
-**Bad Examples:**
-- `feat: implement cash-out feature`
-- `fix: correct odds calculation bug`
-- `chore: bump version number`
 
 ### 2. Author Identity
 Every commit must be authored by `BiosSystem` with email `63607038+BiosSystem@users.noreply.github.com`.
