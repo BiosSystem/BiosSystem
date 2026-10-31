@@ -18,6 +18,7 @@ Please do not open a public issue for a security problem.
 
 * **Open redirect on login (`src/pages/Login.vue`)**: the upstream code passed `route.query.redirect` straight to `router.push()`, so a crafted link could send a signed-in user to another site. Redirects must now start with a single `/`; anything starting with `//` is rejected and falls back to the dashboard.
 * **Credentials in the URL (`src/pages/Login.vue`)**: auto-login read `?username=...&password=...` from the query string, which ends up in browser history, proxy logs and `Referer` headers. That code is removed; credentials only go in the POST body.
+* **Settings isolation (`src/stores/vuetorrent.ts`, `src/App.vue`)**: browser settings are stored under `webuiSettings` and settings synced to the optional backend under `auratorrent_*` keys, so a VueTorrent install on the same origin or backend cannot read or overwrite them. Existing `vuetorrent_*` backend settings are imported once.
 * **Telegram bot allow-list (`bot/main.py`)**: every command handler checks the sender against `ALLOWED_USERS`; admin commands such as `/add_user` are limited to the owner (`OWNER_ID`, or the first allowed user if it is unset).
 * **Dependencies**: CodeQL and dependency review run on every pull request; vulnerable packages are raised in their own pull requests.
 
@@ -25,3 +26,4 @@ Please do not open a public issue for a security problem.
 
 * **Tauri permissions (`src-tauri/capabilities/default.json`)**: the desktop shell is granted only Tauri's `core:default` set, and the only plugin is logging. There is no shell, filesystem or process access from the web view.
 * **CRT shader bounds (`src/engine/graphics/CrtShaderPipeline.ts`)**: coordinates are clamped in the post-processing shader so bad values cannot cause out-of-bounds reads or crash the WebGL context.
+* **High scores**: player initials are reduced to letters before they are saved, and the leaderboard writes entries with `textContent`, so an edited save cannot inject markup.
