@@ -1,6 +1,6 @@
 # BiosSystem
 
-I write and run small products that people use every day: a link shortener with click analytics, a live odds board for sports and esports, a MapleStory v62 server people still log into, and the tooling that keeps all of it up and patched. Mostly Python and TypeScript, with Go, Java and PowerShell where they fit.
+I design and run production software and infrastructure tools: cloud platform engineering, high-throughput network telemetry, security-hardened web applications, and real-time operational monitoring. Mostly Python and TypeScript, with Go, Java and PowerShell where they fit.
 
 [bios-system.net](https://bios-system.net) · [What changed recently](https://bios-system.net/changelog) · [Live status](https://bios-system.net/status)
 
