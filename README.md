@@ -9,6 +9,7 @@ I design and run production software and infrastructure tools: cloud platform en
 | Project | Domain | Overview | Access |
 |---|---|---|---|
 | **[ApexShock](https://github.com/BiosSystem/ApexShock)** | Mobile Gaming | Top-down 3v3 sci-fi hero brawler on Godot 4.3 with Vulkan Mobile rendering. | [Download APK](https://github.com/BiosSystem/ApexShock/releases/latest) (Direct sideload) |
+| **[writehawk](https://github.com/BiosSystem/writehawk)** | Storage Diagnostics | Detects silent SSD rewrite loops on Windows, measures write-to-flush ratios, and mitigates driver bugs. | [GitHub](https://github.com/BiosSystem/writehawk) · [Guide](https://biossystem.github.io/writehawk/) |
 | **[Sniplink](https://bios-system.net)** | Web Services | URL shortener with real-time referrer, click, and geographic telemetry. Batch creation supported. | [bios-system.net](https://bios-system.net) (Free tier) |
 | **[BetForge](https://betforge.bios-system.net)** | Sports & Gaming | White-label sports betting portal with live odds feeds, bet slips, and private leagues. | [Live Demo](https://betforge.bios-system.net) (No sign-in) |
 | **[Steady](https://steady.bios-system.net)** | Network Diagnostics | Browser-based throughput, ping latency, and jitter measurement over WebSockets. | [steady.bios-system.net](https://steady.bios-system.net) (Instant test) |
@@ -23,6 +24,9 @@ Accounts on bios-system.net are approved by hand. Sniplink, BetForge, Steady, an
 
 **[ApexShock](https://github.com/BiosSystem/ApexShock)** ![release](https://img.shields.io/github/v/release/BiosSystem/ApexShock?style=flat-square&label=)  
 A fast-paced 3v3 sci-fi mobile hero arena brawler built for Android on Godot 4.3. Features 6 original Vanguard heroes, 4-tier skill system with Overdrive transformations, Vulkan Mobile rendering, and direct APK sideloading.
+
+**[writehawk](https://github.com/BiosSystem/writehawk)** ![release](https://img.shields.io/github/v/release/BiosSystem/writehawk?style=flat-square&label=)  
+Finds the program that is quietly wearing out your SSD. Detects rewrite loops on Windows, measures rewrite-to-flush ratios per file, explains known graphics driver rewrite bugs (NVIDIA / AMD), and safely applies and rolls back registry workarounds. Python 3.11+, zero external runtime dependencies.
 
 **[AuraTorrent](https://github.com/BiosSystem/AuraTorrent)** ![release](https://img.shields.io/github/v/release/BiosSystem/AuraTorrent?style=flat-square&label=)  
 A web interface for qBittorrent with a bandwidth scheduler and a Telegram alert when a download finishes. Installs on a phone as an app. Vue 3, TypeScript, Vite. Fork of [VueTorrent](https://github.com/VueTorrent/VueTorrent).
